@@ -4,10 +4,9 @@ function firstChar(text) {
 		return "";
 	}
 	const myText = text.trim();
-	return myText[0];
+	return myText.charAt(0);
 }
 
 // Do not change the code below
-
 const text = prompt("Enter text:");
 alert(firstChar(text));
