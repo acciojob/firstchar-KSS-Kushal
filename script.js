@@ -1,5 +1,8 @@
 function firstChar(text) {
   // your code here
+	if (text.length===0) {
+		return "";
+	}
 	const myText = text.trim();
 	return myText[0];
 }
